@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola, Mundo!</title>
+</head>
+<body>
+    <h1>Ola, Mundo!</h1>
+    <p>Isso foi o que eu aprendi até agora em JS:<br>
+        abrir a janela de alerta do navegador
+    </p>
+
+    <p>
+        abrir a janela de confirmação do navegador 
+    </p>
+
+    <p>
+        abrir a janela de perguntas e respostas do navegador
+    </p>
+
+    <p>declarar variaveis usando var indentificador = valor e também a manipulá-las.<br> No caso de Strings: sei mostrar quantos caracteres ela tem e mostra-la com as letras todas em maiúsculas e minúsculas. E também sei  juntar uma String com outra assim como sei fazer isso com numbers.<br> Quantos aos numbers: sei fazer contas com eles e a declará-los e a transforma-los em Strings e vice-versa 
+
+    </p>
+
+    <p></p>
+
+
+
+    <script>
+        window.alert("Parabens, você sabe abrir a janela de alerta do navegador !");
+
+        window.confirm("pode abrir a janela de confirmação ?");
+
+        window.prompt("Eu sei abrir a janela de perguntas e respostas do navegador ?");
+
+        var nome = window.prompt("Qual é o seu nome ?");
+
+        document.write('Olá, ' + nome + 'Você tá indo muito bem no Java Script logo logo vai estar num ótimo emprego');
+
+        window.confirm("Eu posso dizer pra você quantas letras tem seu nome " + nome + "?");
+
+        window.alert (`Seu nome tem ${nome.length} letras ` + nome);
+
+        window.alert("Vou mostrar pra você também como fica o seu nome com todas as letras maiusculas e todas as letras minúsculas");
+
+       window.alert("Seu nome fica assim com tudo maiusculo: " + nome.toUpperCase() + "e assim com tudo minúsculo: " + nome.toLowerCase());
+
+       var n1 = window.prompt("Digite um número para podermos juntar com outro: ");
+       var n2 = window.prompt("Agora digite outro número para que assim juntemos com o primeiro: ");
+       var jun = n1 + n2 
+       window.alert("Os números escolhidos juntos ficaram assim : " + jun + ".");
+
+       window.confirm("Podemos somar uns números ?");
+       var s1 = Number(window.prompt("s1: "));
+       var s2 = Number(window.prompt("s2: "));
+       var soma = window.alert(`A soma é: ${s1+s2}`);
+
+
+    </script>
+    
+    
+</body>
+</html>
